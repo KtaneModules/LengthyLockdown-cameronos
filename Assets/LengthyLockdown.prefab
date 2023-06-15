@@ -162,7 +162,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4548199488533052}
   - component: {fileID: 33842160725509308}
-  - component: {fileID: 65101194400661800}
   - component: {fileID: 23397621526663838}
   - component: {fileID: 114525326433732258}
   - component: {fileID: 114294696036871710}
@@ -182,7 +181,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4995720978191168}
   - component: {fileID: 33966672343721176}
-  - component: {fileID: 65300512395270430}
   - component: {fileID: 23944963271403980}
   - component: {fileID: 114348318186341688}
   - component: {fileID: 114830950069170490}
@@ -392,11 +390,11 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1385819432878550}
   m_LocalRotation: {x: -0.7071068, y: -0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -0.48, y: -0.75, z: -0.381}
-  m_LocalScale: {x: 0.00939225, y: -0.015585016, z: 71.79689}
+  m_LocalPosition: {x: -0.428, y: -0.75, z: -0.33999997}
+  m_LocalScale: {x: 0.009392249, y: -0.0155850295, z: 71.79689}
   m_Children: []
   m_Father: {fileID: 4971733808620294}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!4 &4203096024682674
 Transform:
@@ -501,11 +499,11 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1219140615559262}
   m_LocalRotation: {x: -0.7071068, y: -0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0.018, y: -0.75386703, z: 0.03740408}
+  m_LocalPosition: {x: -0.009, y: -0.75, z: 0}
   m_LocalScale: {x: 0.00939225, y: -0.015585033, z: 71.79689}
   m_Children: []
   m_Father: {fileID: 4971733808620294}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!4 &4971733808620294
 Transform:
@@ -517,8 +515,8 @@ Transform:
   m_LocalPosition: {x: -0.0203, y: 0.0091, z: 0.0437}
   m_LocalScale: {x: 0.10647074, y: -0.013928187, z: 0.064164214}
   m_Children:
-  - {fileID: 4917110143287258}
   - {fileID: 4154110515624634}
+  - {fileID: 4917110143287258}
   m_Father: {fileID: 4805781891501058}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -612,7 +610,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 2ebf4be8d07b5de46b513a76153b7a3c, type: 2}
+  - {fileID: 2100000, guid: 79a102af8c23eee42bc834680355150b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1077,19 +1075,7 @@ BoxCollider:
   m_GameObject: {fileID: 1680652417752744}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &65101194400661800
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1548844326598220}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -1101,7 +1087,7 @@ BoxCollider:
   m_GameObject: {fileID: 1023790421110838}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -1113,19 +1099,7 @@ BoxCollider:
   m_GameObject: {fileID: 1950155482204052}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &65300512395270430
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1586329818746398}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -1137,7 +1111,7 @@ BoxCollider:
   m_GameObject: {fileID: 1987113663013472}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -1149,7 +1123,7 @@ BoxCollider:
   m_GameObject: {fileID: 1548371296886422}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -1270,6 +1244,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Bomb: {fileID: 114725675742711350}
+  BombInfo: {fileID: 114725675742711350}
   Audio: {fileID: 114568045987250334}
   Module: {fileID: 114715877245824822}
   Buttons:
@@ -1284,6 +1259,7 @@ MonoBehaviour:
   - {fileID: 102752789433371632}
   solveColor: {r: 0.24705882, g: 1, b: 0.05882353, a: 1}
   logColor: {r: 0.99215686, g: 0.92156863, b: 0.003921569, a: 1}
+  excludedNumbers: 0c000000050000000e000000070000001400000008000000
 --- !u!114 &114128906277727302
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1433,7 +1409,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ShaderNames:
-  - KT/Mobile/DiffuseTint
+  - Standard
 --- !u!114 &114525326433732258
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1571,7 +1547,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ModuleType: LengthyLockdown
   ModuleDisplayName: Lengthy Lockdown
-  RequiresTimerVisibility: 0
+  RequiresTimerVisibility: 1
 --- !u!114 &114725675742711350
 MonoBehaviour:
   m_ObjectHideFlags: 1
